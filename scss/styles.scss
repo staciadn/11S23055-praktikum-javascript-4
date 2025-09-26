@@ -1,0 +1,45 @@
+body {
+  background-color: #fafafa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.header-gradient {
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4, #fad0c4);
+}
+
+.stat-card {
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.btn-pink {
+  background-color: #f06292;
+  color: white;
+  border: none;
+
+  &:hover {
+    background-color: #ec407a;
+    color: white;
+  }
+}
+
+.btn-outline-purple {
+  border: 1px solid #ba68c8;
+  color: #ba68c8;
+
+  &:hover {
+    background-color: #ba68c8;
+    color: white;
+  }
+}
+
+.todo-item {
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 12px 15px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  color: #666;
+}
